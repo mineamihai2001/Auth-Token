@@ -5,5 +5,6 @@ internal class Test
     public static void Main(string[] args)
     {
         Console.WriteLine("Hello, Jegosule!");
+        Console.WriteLine("Csharp e naspa");
     }
 }
