@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\minea\\.nuget\\packages\\": {}
+    "C:\\Users\\teoco\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Informatica\\Anul_2\\semestrul_2\\Laboratoare\\C#\\Auth-Token\\Auth-Token\\Auth-Token.csproj",
+      "projectUniqueName": "D:\\VSprograms\\Auth-Token\\Auth-Token\\Auth-Token.csproj",
       "projectName": "Auth-Token",
-      "projectPath": "D:\\Informatica\\Anul_2\\semestrul_2\\Laboratoare\\C#\\Auth-Token\\Auth-Token\\Auth-Token.csproj",
-      "packagesPath": "C:\\Users\\minea\\.nuget\\packages\\",
-      "outputPath": "D:\\Informatica\\Anul_2\\semestrul_2\\Laboratoare\\C#\\Auth-Token\\Auth-Token\\obj\\",
+      "projectPath": "D:\\VSprograms\\Auth-Token\\Auth-Token\\Auth-Token.csproj",
+      "packagesPath": "C:\\Users\\teoco\\.nuget\\packages\\",
+      "outputPath": "D:\\VSprograms\\Auth-Token\\Auth-Token\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\minea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\teoco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
