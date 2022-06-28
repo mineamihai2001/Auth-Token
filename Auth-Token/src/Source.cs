@@ -10,8 +10,13 @@ namespace Auth_Token.src
     {
         public static void Main(string[] args)
         {
-            Data data = new Data();
-            data.getInstance();
+            /*Data data = new Data();
+            data.getInstance();*/
+            Database db;
+            db = Database.GetInstance();
+            db.Query("test");
+
+
         }
     }
 }
