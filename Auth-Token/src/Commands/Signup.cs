@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Auth_Token.src
 {
-    internal class Signup
+    public class Signup: Command
     {
+        public Signup()
+        {
+            Window.Show("SignUp successful with _username_", "");
+        }
     }
 }

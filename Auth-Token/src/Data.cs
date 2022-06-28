@@ -15,7 +15,7 @@ namespace Auth_Token.src
         {
             try
             {
-                Window.Show("enter a command", ">>");
+                Window.Show("enter a command", ">> ");
                 input = Console.ReadLine();
                 this.input = input;
             }

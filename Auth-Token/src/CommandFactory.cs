@@ -23,7 +23,11 @@ namespace Auth_Token.src
                     return new Login();
                 case "logout":
                     return new Logout();
-                default: return null;
+                case "signup":
+                    return new Signup();
+                default:
+                    Window.Show("@@@@@ ", "unknown command");
+                    return null;
             }
         }
     }
